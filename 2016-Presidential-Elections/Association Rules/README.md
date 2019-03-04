@@ -1,1 +1,0 @@
-Association rule files.
