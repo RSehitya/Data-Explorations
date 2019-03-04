@@ -1,0 +1,11 @@
+"","rules","support","confidence","lift"
+"14","{BelowPovertyLine=3} => {Outcome=Lost}",0.211589580010633,1,1.03238199780461
+"19","{WhiteOnly=1} => {Outcome=Lost}",0.221690590111643,1,1.03238199780461
+"110","{BelowPovertyLine=3,WhiteOnly=1} => {Outcome=Lost}",0.110047846889952,1,1.03238199780461
+"119","{PerCapitaIncome=1,BelowPovertyLine=3} => {Outcome=Lost}",0.186071238702818,1,1.03238199780461
+"125","{HigherEducation=1,BelowPovertyLine=3} => {Outcome=Lost}",0.154173312068049,1,1.03238199780461
+"128","{PopulationDensity=1,BelowPovertyLine=3} => {Outcome=Lost}",0.15257841573631,1,1.03238199780461
+"136","{PerCapitaIncome=1,WhiteOnly=1} => {Outcome=Lost}",0.130249867091972,1,1.03238199780461
+"142","{HigherEducation=1,WhiteOnly=1} => {Outcome=Lost}",0.120148856990962,1,1.03238199780461
+"144","{PopulationDensity=1,WhiteOnly=1} => {Outcome=Lost}",0.141414141414141,1,1.03238199780461
+"207","{PerCapitaIncome=1,WhiteOnly=2} => {Outcome=Lost}",0.133439659755449,1,1.03238199780461

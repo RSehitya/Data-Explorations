@@ -1,0 +1,11 @@
+"","rules","support","confidence","lift"
+"158","{HigherEducation=1,WhiteOnly=3} => {Outcome=Lost}",0.145135566188198,0.916107382550336,1.32350075773977
+"131","{HigherEducation=1,BelowPovertyLine=3} => {Outcome=Lost}",0.136097820308347,0.882758620689655,1.27532178611155
+"299","{HigherEducation=1,PerCapitaIncome=1,BelowPovertyLine=3} => {Outcome=Lost}",0.129718234981393,0.88086642599278,1.272588131561
+"161","{BelowPovertyLine=2,WhiteOnly=3} => {Outcome=Lost}",0.117490696438065,0.873517786561265,1.26197154878782
+"307","{HigherEducation=1,PopulationDensity=1,BelowPovertyLine=3} => {Outcome=Lost}",0.110047846889952,0.866108786610879,1.25126776314521
+"327","{HigherEducation=1,PerCapitaIncome=1,PopulationDensity=1,BelowPovertyLine=3} => {Outcome=Lost}",0.105794790005316,0.865217391304348,1.24997996393508
+"125","{PerCapitaIncome=1,BelowPovertyLine=3} => {Outcome=Lost}",0.156831472620946,0.842857142857143,1.21767610269914
+"14","{BelowPovertyLine=3} => {Outcome=Lost}",0.177565124933546,0.839195979899497,1.21238681888706
+"134","{PopulationDensity=1,BelowPovertyLine=3} => {Outcome=Lost}",0.127591706539075,0.836236933797909,1.20811188362048
+"303","{PerCapitaIncome=1,PopulationDensity=1,BelowPovertyLine=3} => {Outcome=Lost}",0.119617224880383,0.830258302583026,1.19947455234921
