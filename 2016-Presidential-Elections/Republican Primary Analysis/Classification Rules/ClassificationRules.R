@@ -33,13 +33,13 @@ performance<-function(table,n=2){
   cat(result)
 }
 
-trumpcat<-read.csv("~/2016_Presidential_Elections/RepublicanPrimaryAnalysis/ClassificationRules/Trump Categorical.csv")
+trumpcat<-read.csv("~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Classification Rules/Trump Categorical.csv")
 str(trumpcat)
 
-cruzcat<-read.csv("~/2016_Presidential_Elections/RepublicanPrimaryAnalysis/ClassificationRules/Cruz Categorical.csv")
+cruzcat<-read.csv("~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Classification Rules/Cruz Categorical.csv")
 str(cruzcat)
 
-kasichcat<-read.csv("~/2016_Presidential_Elections/RepublicanPrimaryAnalysis/ClassificationRules/Kasich Categorical.csv")
+kasichcat<-read.csv("~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Classification Rules/Kasich Categorical.csv")
 str(kasichcat)
 
 #set training and validation sets

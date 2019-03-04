@@ -25,7 +25,7 @@ library(e1071)
 library(party)
 
 
-masterdata<-read.csv("masterdata.csv")
+masterdata<-read.csv("~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Multi Linear Regression Analysis/masterdata.csv")
 str(masterdata)
 
 #the function below cross validates a model's R square statistic by implementing k-fold cross-validation. The sample is divided into k subsamples. Each of the k subsamples serves as a hold
@@ -287,7 +287,7 @@ print(sqrt(rmse))
 #####****************************************************************#######
 #predict california primary results based on our models
 
-CApredictdata<-read.csv("California Primary County Stats.csv")
+CApredictdata<-read.csv("~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Multi Linear Regression Analysis/California Primary County Stats.csv")
 str(CApredictdata)
 predictions<-predict.lm(trumpbestfit3,newdata=CApredictdata)
 
