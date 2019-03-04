@@ -2,7 +2,7 @@
 rm(list=ls())
 
 library(arules)
-results<-read.csv("~/2016_Presidential_Elections/RepublicanPrimaryAnalysis/AssociationRules/Cruz Categorical Final.csv")
+results<-read.csv("~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Association Rules/Trump Categorical Final.csv")
 
 #let us take a look at the data and figure out if there are any variables we need to convert to factors
 
@@ -80,5 +80,5 @@ electionrulesLostliftdf<-as(electionrulesLostlift, "data.frame")
 # Look at the first 10 rules
 print(electionrulesLostliftdf[1:10,])
 
-write.csv(electionrulesLostliftdf[1:10,],file = "~/2016_Presidential_Elections/RepublicanPrimaryAnalysis/AssociationRules/Generated Rules/Kasich Loss Rules.csv")
-write.csv(electionrulesWonliftdf[1:10,],file = "~/2016_Presidential_Elections/RepublicanPrimaryAnalysis/AssociationRules/Generated Rules/Kasich Won Rules.csv")
+write.csv(electionrulesLostliftdf[1:10,],file = "~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Association Rules/Generated Files/Trump Loss Rules.csv")
+write.csv(electionrulesWonliftdf[1:10,],file = "~/GitHub/Data-Explorations/2016-Presidential-Elections/Republican Primary Analysis/Association Rules/Generated Files/Trump Won Rules.csv")
